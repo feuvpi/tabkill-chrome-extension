@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Killer",
+  "version": "1.0",
+  "description": "Automatically closes inactive tabs after 15 minutes",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
